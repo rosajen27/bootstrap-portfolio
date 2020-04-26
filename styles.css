@@ -1,36 +1,38 @@
-
 body {
-    background-color: #e8f1f5;
+  background-color: #e8f1f5;
 }
 
-.bg-dark {
-    background-color: #004a7c;
+.bg-custom {
+  background-color: #004a7c;
 }
 
 .jumbotron {
-    margin-bottom: 0;
-    padding: 100px 30px;
-    background-color: #e8f1f5;
-    text-align: center;
+  margin-bottom: 0;
+  padding: 100px 30px;
+  background-color: #e8f1f5;
+  text-align: center;
 }
 
 .img-thumbnail {
-    border-radius: 100%;
-    border: #000 2px solid;
-    width: 250px;
+  border-radius: 100%;
+  border: #000 2px solid;
+  width: 250px;
+}
+
+.contact-form-text {
+  text-align: left;
 }
 
 footer {
-    background-color: #005691;
-    text-align: center;
-    color: #fff;
-    padding: 30px;
-    margin-top: 0;
-    margin-bottom: 0;
+  background-color: #005691;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .social-media-icons {
-    width: 24px;
-    margin: 0 5px 0 0;
+  width: 24px;
+  margin: 0 5px 0 0;
 }
-
