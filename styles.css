@@ -1,12 +1,17 @@
 
 body {
-    background-color: #e9ecef;
+    background-color: #e8f1f5;
+}
+
+.bg-dark {
+    background-color: #004a7c;
 }
 
 .jumbotron {
     margin-bottom: 0;
-    padding: 30px;
-    background-color: #e9ecef;
+    padding: 100px 30px;
+    background-color: #e8f1f5;
+    text-align: center;
 }
 
 .img-thumbnail {
@@ -16,6 +21,7 @@ body {
 }
 
 footer {
+    background-color: #005691;
     text-align: center;
     color: #fff;
     padding: 30px;
