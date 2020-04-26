@@ -1,0 +1,23 @@
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.img-thumbnail {
+    border-radius: 100%;
+    border: #000 2px solid;
+    width: 250px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.social-media-icons {
+    width: 24px;
+    margin: 0 5px 0 0;
+}
+
