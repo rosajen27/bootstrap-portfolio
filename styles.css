@@ -2,6 +2,10 @@ body {
   background-color: #e8f1f5;
 }
 
+a {
+    color: #004a7c;
+}
+
 h2 {
   font-size: 1.25rem;
 }
