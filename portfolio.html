@@ -1,66 +1,128 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <meta charset="utf-8" />
+<meta charset="utf-8" />
 
-  <head>
+<head>
     <title>Jennifer Rosa</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-sm bg-custom navbar-dark">
-      <!-- Brand -->
-      <a class="navbar-brand">Jennifer Rosa</a>
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/navbar-logo.png" width="36" class="d-inline-block" alt="navbar-logo">
+            Jennifer Rosa</a>
 
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
     </nav>
     <!--Jumbotron Introduction-->
     <div class="jumbotron jumbotron-fluid container">
 
-      <div class="row">
-        <div class="col-12">
-          <h1 class="display-4">Portfolio</h1>
-          <p class="lead">
-            Something important will go here
-          </p>
-        </div>
-        </div>
         <div class="row">
-          <div class="col-12">
-          <p>
-            LINKS TO REPOSITORIES HERE
-          </p>
-          <br>
+            <div class="col-12">
+                <h1 class="display-4">Portfolio</h1>
+                <p class="lead">Here's a selection of some recent work.<br>
+                    For more up to the minute work you can visit me on <a
+                        href="https://github.com/rosajen27">GitHub</a>.</p>
+                <br><br>
+            </div>
         </div>
-</div>
+
+        <!-- Portfolio Webpages Row 1-->
+        <div class="row">
+            <div class="col-4">
+                <div class="card card-border" style="width: 18rem;">
+                    <a href="https://rosajen27.github.io/cv2/"><img src="assets/portfolio-img-cv.png"
+                            class="card-img-top" alt="portfolio-img-cv"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Curriculum Vitae</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-border" style="width: 18rem;">
+                    <a href="https://rosajen27.github.io/Base-Apparel/"><img src="assets/portfolio-img-baseapparel.png"
+                            class="card-img-top" alt="portfolio-img-baseapparel"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Base Apparel</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-border" style="width: 18rem;">
+                    <a href="https://rosajen27.github.io/tindog/"><img src="assets/portfolio-img-tindog.png"
+                            class="card-img-top" alt="portfolio-img-tindog"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">TinDog</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <!-- Portfolio Webpages Row 2-->
+        <div class="row">
+            <div class="col-4">
+                <div class="card card-border" style="width: 18rem;">
+                    <a href="https://rosajen27.github.io/dicegame/"><img src="assets/portfolio-img-dicegame.png"
+                            class="card-img-top" alt="portfolio-img-dicegame"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Dice Game</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-border" style="width: 18rem;">
+                    <img src="assets/portfolio-img-comingsoon.png" class="card-img-top" alt="portfolio-img-comingsoon">
+                    <div class="card-body">
+                        <h5 class="card-title">Coming Soon</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-border" style="width: 18rem;">
+                    <img src="assets/portfolio-img-comingsoon.png" class="card-img-top"
+                        alt="portfolio-img-comingsoon"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Coming Soon</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <br>
 
     <!--Social Media Links & Copyright-->
     <footer class="footer">
-      <br />
-      <a href="https://github.com/rosajen27"><img src="assets/github-icon.png" alt="GitHub" class="social-media-icons"></a>
-      <a href="https://www.linkedin.com/in/rosajen27/"><img src="assets/linkedin-icon.png" alt="Linkedin" class="social-media-icons"></a>
-      <a href="https://www.facebook.com"></a><img src="assets/facebook-icon.png" alt="Facebook" class="social-media-icons"></a>
-      <br /><br />
-      <p class="footer">&copy; Jennifer Rosa 2020</p>
+        <br />
+        <a href="https://github.com/rosajen27"><img src="assets/github-icon.png" alt="GitHub"
+                class="social-media-icons"></a>
+        <a href="https://www.linkedin.com/in/rosajen27/"><img src="assets/linkedin-icon.png" alt="Linkedin"
+                class="social-media-icons"></a>
+        <a href="https://www.facebook.com"></a><img src="assets/facebook-icon.png" alt="Facebook"
+            class="social-media-icons"></a>
+        <br /><br />
+        <p class="footer">&copy; Jennifer Rosa 2020
+            <br>
+            Coming Soon Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        </p>
     </footer>
-  </body>
+</body>
+
 </html>
