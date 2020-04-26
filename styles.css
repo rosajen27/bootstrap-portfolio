@@ -6,6 +6,7 @@ body {
 .jumbotron {
     margin-bottom: 0;
     padding: 30px;
+    background-color: #e9ecef;
 }
 
 .img-thumbnail {
