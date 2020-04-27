@@ -68,6 +68,10 @@ a:hover {
   text-align: left;
 }
 
+.row-padding {
+  padding-top: 60px;
+}
+
 footer {
   background-color: #005691;
   text-align: center;
