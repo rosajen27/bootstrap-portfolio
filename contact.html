@@ -31,50 +31,45 @@
     </nav>
     <!--Jumbotron Introduction-->
     <div class="jumbotron jumbotron-fluid container">
-
-        <div class="row">
-            <div class="col-12">
+            <div class="container-fluid">
                 <h1 class="display-4">Contact</h1>
                 <p class="lead">
                     Contact me via email or phone:
                 </p>
                 <img class="icons" src="assets/icon-email.png">
-                <p>rosajen27@gmail.com</p>
+                <br>
+                <a href="mailto:rosajen27@gmail.com">rosajen27@gmail.com</a>
+                <br><br>
                 <img class="icons" src="assets/icon-phone.svg">
-                <p>000-000-0000</p>
+                <br>
+                <p>+1-000-000-0000</p>
                 <p class="lead">Or fill out the form below:</p>
+                <form action="mailto:rosajen27@gmail.com" method="post" enctype="text/plain">
+                    <div>
+                        <label for="Name">Name</label>
+                        <br>
+                        <input pattern="[A-Z,a-z, ]*" type="text" name="name" id="Name">
+                        <br><br>
+                    </div>
+
+                    <div>
+                        <label for="Email">Email</label>
+                        <br>
+                        <input type="text" name="mail" id="Email">
+                        <br><br>
+                    </div>
+                    <div>
+                        <label for="Message">Message</label>
+                        <br>
+                        <textarea rows="5" name="message"></textarea>
+                        <br><br>
+                    </div>
+                    <p>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </p>
+                </form>
             </div>
         </div>
-        <!-- Contact Form-->
-        <form>
-            <div class="form-row contact-form-text row-padding">
-                <!-- Empty Div to push form to middle-->
-                <div class="form-group col-md-3"></div>
-
-                <div class="form-group col-md-6">
-                    <label for="inputName">Name</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="John Smith">
-                </div>
-            </div>
-            <div class="form-row contact-form-text">
-                <!-- Empty Div to push form to middle-->
-                <div class="form-group col-md-3"></div>
-                <div class="form-group col-md-6">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
-                </div>
-            </div>
-            <div class="form-row contact-form-text">
-                <!-- Empty Div to push form to middle-->
-                <div class="form-group col-md-3"></div>
-                <div class="form-group col-md-6">
-                    <label for="inputMessage">Message</label>
-                    <textarea class="form-control" id="inputMessage"></textarea>
-                </div>
-            </div>
-            <br>
-            <button type="submit" class="btn btn-primary bg-custom">Submit</button>
-        </form>
     </div>
     <!--Social Media Links & Copyright-->
     <footer class="footer">

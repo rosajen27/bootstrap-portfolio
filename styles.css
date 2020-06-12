@@ -47,6 +47,9 @@ a:hover {
   border-bottom: #000 1px solid;
 }
 
+.card {
+  margin-bottom: 35px;
+}
 .card-border {
   border: #000 1px solid;
 }
@@ -77,9 +80,6 @@ a:hover {
   text-align: left;
 }
 
-.row-padding {
-  padding-top: 60px;
-}
 
 footer {
   background-color: #005691;
