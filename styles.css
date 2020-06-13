@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    color: #004a7c;
+  color: #004a7c;
 }
 
 h2 {
@@ -25,6 +25,10 @@ a:hover {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
+}
+
+.resume {
+  margin-right: 20px;
 }
 
 .jumbotron {
@@ -62,7 +66,6 @@ a:hover {
   height: 30px;
 }
 
-
 .skills-img {
   width: 64px;
   padding-top: 30px;
@@ -79,7 +82,6 @@ a:hover {
 .contact-form-text {
   text-align: left;
 }
-
 
 footer {
   background-color: #005691;
