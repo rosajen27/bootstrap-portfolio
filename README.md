@@ -18,7 +18,7 @@ Portfolio includes:
 
 Deployed Website:https://rosajen27.github.io/
 
-![capture](.assets/images/Capture.JPG)
+![capture](./assets/Capture.JPG)
 
 ## Built With
 
