@@ -45,6 +45,7 @@ a:hover {
   border-radius: 100%;
   border: #000 2px solid;
   width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-img-top {
@@ -54,6 +55,7 @@ a:hover {
 .card {
   margin-bottom: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 550px;
 }
 .card-border {
   border: #000 1px solid;
