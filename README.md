@@ -16,7 +16,7 @@ Portfolio includes:
 
 ## Deployment
 
-Deployed Website:https://rosajen27.github.io/
+Deployed Website:https://rosajen27.github.io/bootstrap-portfolio
 
 ![capture](./assets/Capture.JPG)
 
